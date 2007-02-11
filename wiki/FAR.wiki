@@ -1,7 +1,7 @@
 #labels Featured,Phase-Design
-FAR (FlashArchive)
+= FAR (FlashArchive) =
 
-= Description =
+== Description ==
 
 FAR consist of a two parts:
   * A command-line utility (OSX/Windows/Linux) for creating FAR archives.
@@ -19,6 +19,10 @@ Last, the FAR archive builder can build files from an XML formatted 'manifest' t
 
 The archive tool is programmed in haXe. For more info on haxe, see [http://www.haxe.org]
 
-= Download =
+== Download ==
 
 The current release is Beta 0.1. The following download contains the AS3 API, its documentation, and the arhive utility (for Windows, OSX and Linux). Refer to the downloads section for a download link.
+
+== More info ==
+Refer to the online AS3 API documentation at:
+[http://vanrijkom.org/far/index.html] 
