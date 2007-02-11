@@ -1,10 +1,23 @@
-FAR (Flash Archive)
+FAR (FlashArchive)
 
-= Introduction =
+= Description =
 
-= Details =
+FAR consist of a two parts:
+  * A command-line utility (OSX/Windows/Linux) for creating FAR archives.
+  * A set of AS3 classes to read FAR archives from Flash.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Flash 9 can decompress ZLIB compressed arrays of bytes. However, such arrays must be postfixed with an Adler32 checksum. Regular ZIP files don't carry such checksums, and thus ZIP files aren't readable by Flash. 
+
+Claus Wahlers and Max Herkender were the first to explore this, which resulted in FZIP ([http://codeazur.com.br/lab/fzip/]). They work around the Adler32 issue by providing a PHP script that adds Adler32 check-sums.
+
+The FAR fileformat is somewhat similar to the ZIP format. It also uses ZLIB compression, but instead of using CRC32 check-sums it uses Adler32 so it is 'natively' readable by Flash 9.
+
+Additionally, FAR offers control over what files are put first in the archive so important files get streamed in to Flash before the less important ones do.
+
+Last, the FAR archive builder can build files from an XML formatted 'manifest' that contains archive item source-paths, indices, and attributes.
+
+The archive tool is programmed in haXe. For more info on haxe, see [http://www.haxe.org]
+
+= Download =
+
+The current release is Beta 0.1. The following download contains the AS3 API, its documentation, and the arhive utility (for Windows, OSX and Linux). Refer to the downloads section for a download link.
