@@ -11,7 +11,7 @@ Flash 9 can decompress ZLIB compressed arrays of bytes. However, such arrays mus
 
 Claus Wahlers and Max Herkender were the first to explore this, which resulted in FZIP ([http://codeazur.com.br/lab/fzip/]). They work around the Adler32 issue by providing a PHP script that adds Adler32 check-sums.
 
-The FAR fileformat is somewhat similar to the ZIP format. It also uses ZLIB compression, but instead of using CRC32 check-sums it uses Adler32 so it is 'natively' readable by Flash 9.
+The FAR file format is somewhat similar to the ZIP format. It also uses ZLIB compression, but instead of using CRC32 check-sums it uses Adler32 so it is 'natively' readable by Flash 9.
 
 Additionally, FAR offers control over what files are put first in the archive so important files get streamed in to Flash before the less important ones do.
 
