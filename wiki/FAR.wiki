@@ -3,7 +3,7 @@
 
 == Description ==
 
-FAR consist of a two parts:
+FAR consist of two parts:
   * A command-line utility (OSX/Windows/Linux) for creating FAR archives.
   * A set of AS3 classes to read FAR archives from Flash.
 
