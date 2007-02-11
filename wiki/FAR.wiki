@@ -21,7 +21,7 @@ The archive tool is programmed in haXe. For more info on haxe, see [http://www.h
 
 == Download ==
 
-The current release is Beta 0.1. The following download contains the AS3 API, its documentation, and the arhive utility (for Windows, OSX and Linux). Refer to the downloads section for a download link.
+The current release is Beta 0.1. Refer to the [http://code.google.com/p/vanrijkom-flashlibs/downloads/list downloads section] to download.
 
 == More info ==
 Refer to the online AS3 API documentation at:
