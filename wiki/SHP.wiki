@@ -12,6 +12,7 @@ SHP is an ActionScript 3 library for parsing [http://en.wikipedia.org/wiki/Shape
 == Download ==
 
 The current release is Beta 0.1. It can be obtained using SVN:
+
 {{{svn checkout http://vanrijkom-flashlibs.googlecode.com/svn/trunk/org/vanrijkom/shp}}}
 
 == More info ==
