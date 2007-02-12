@@ -1,5 +1,3 @@
-#summary One-sentence summary of this page.
-
 = FAR Archiver Setup =
 
 After [http://code.google.com/p/vanrijkom-flashlibs/downloads/list downloading] the archiver, unpack the version for your operating system to a folder of your choice. No more than that is strictly required to start using the archiver, but things will work best if the tool is on your OS's search path:
@@ -20,7 +18,6 @@ After [http://code.google.com/p/vanrijkom-flashlibs/downloads/list downloading] 
   * Click {{{Edit}}}
   * append {{{;your\directory\containing\far.exe}}} at the end of the text shown at {{{variable value}}}. Do *not* include {{{far.exe}}} - enter only the directory {{{far.exe}}} resides in
   * Close all property windows, (re)start a command line prompt and issue {{{far.exe}}}. Far's help text will be printed to screen.
-
 
 
 
