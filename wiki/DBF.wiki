@@ -1,3 +1,4 @@
+#labels Featured
 = DBF (XBase File Reader) =
 
 == Description ==
@@ -13,4 +14,3 @@ The current release is Beta 0.1. It can be obtained using SVN:
 == More info ==
 
   * [http://vanrijkom.org/dbf/index.html API Documentation] 
-
