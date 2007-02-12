@@ -268,7 +268,7 @@ public class FarStream extends URLStream
 					( i.size-i.data.length	// req. bytes to complete
 					, bytesAvailable		// avail. bytes
 					);
-				trace("count",count);	
+				trace("count",bytesAvailable,count,i.size,i.data.length);	
 				readBytes(i.data,i.data.length,count);
 				// broadcast item load progress:
 				evt = new FarEvent(FarEvent.ITEM_PROGRESS);	
@@ -301,7 +301,8 @@ public class FarStream extends URLStream
 					evt.item = i;			
 					dispatchEvent(evt);					
 				}
-				readFileData(e);
+				if (bytesAvailable) 
+					readFileData(e);
 			}	
 		}
 	}
