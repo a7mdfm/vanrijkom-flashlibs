@@ -25,5 +25,6 @@ The current release is Beta 0.1. Refer to the [http://code.google.com/p/vanrijko
 
 == More info ==
 
+  * [FarArchiverSetup FAR Archiver setup]
   * [FarArchiverSyntax FAR Archiver syntax]
   * [http://vanrijkom.org/far/index.html ActionScript3 API] 
