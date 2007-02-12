@@ -33,11 +33,11 @@ import flash.media.Sound;
 import flash.display.MovieClip;
 
 /**
- * Dispatched when the loader is reading file data for an item in 
+ * Dispatched when file data for this item is being read from 
  * the arhive.
- * @eventType org.vanrijkom.far.FarEvent.ITEM_PROGRESS
+ * @eventType flash.events.ProgressEvent.PROGRESS
  */	
-[Event(name="farItemProgress",type="org.vanrijkom.far.FarEvent")]
+[Event(name="progress",type="flash.events.ProgressEvent")]
 /**
  * Dispatched when the loader is about the uncompress an item in 
  * the archive.
@@ -47,9 +47,9 @@ import flash.display.MovieClip;
 /**
  * Dispatched when the loader has finished uncompressing an item in
  * the archive.
- * @eventType org.vanrijkom.far.FarEvent.ITEM_UNCOMPRESSED
+ * @eventType flash.events.Event.COMPLETE
  */	
-[Event(name="farItemUncompressed",type="org.vanrijkom.far.FarEvent")]
+[Event(name="complete",type="flash.events.Event")]
 /**
  * Dispatched when the loader has fully finished loading and possibly
  * uncompressing an item from the archive.
