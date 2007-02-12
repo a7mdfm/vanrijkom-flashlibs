@@ -3,7 +3,7 @@
 
 == Description ==
 
-SHP is an ActionScript 3 library for parsing [http://en.wikipedia.org/wiki/Shapefile ESRI Shapefiles]. The current has support for the following Shape Record types:
+SHP is an ActionScript 3 library for parsing [http://en.wikipedia.org/wiki/Shapefile ESRI Shapefiles]. The current version has support for the following Shape Record types:
 
   * Point
   * PointZ
