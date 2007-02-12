@@ -4,6 +4,7 @@
 
 This is a dump of the returned help content displayed by the archiver tool on running it without any arguments:
 
+{{{
 FAR (Flash Archive) 0.1 - (C) 2007, Edwin van Rijkom
 http://www.vanrijkom.org
 
@@ -58,3 +59,4 @@ archive file is created. Other options:
   f (Forward slash - Windows):
     Interpret forward-slashes as path segment separators instead of
     back-slashes
+}}}
