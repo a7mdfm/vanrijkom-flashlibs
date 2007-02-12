@@ -21,11 +21,7 @@ The archive tool is programmed in haXe. For more info on haxe, see [http://www.h
 
 == Download ==
 
-The current 'all-in-one' release is Beta 0.1 *revision 1*. Refer to the [http://code.google.com/p/vanrijkom-flashlibs/downloads/list downloads section] to download. 
-
-The most up to date version of the AS3 API can be downloaded from SVN:
-
-{{{svn checkout http://vanrijkom-flashlibs.googlecode.com/svn/trunk/org/vanrijkom/far}}} 
+The current 'all-in-one' release is Beta 0.1 *revision 1*. Refer to the [http://code.google.com/p/vanrijkom-flashlibs/downloads/list downloads section] to download.
 
 == More info ==
 
