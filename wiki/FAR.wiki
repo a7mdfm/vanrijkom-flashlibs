@@ -25,5 +25,5 @@ The current release is Beta 0.1. Refer to the [http://code.google.com/p/vanrijko
 
 == More info ==
 
-[FarHelp|FAR Archiver syntax]
-[http://vanrijkom.org/far/index.html|ActionScript3 API] 
+[FarHelp FAR Archiver syntax]
+[http://vanrijkom.org/far/index.html ActionScript3 API] 
