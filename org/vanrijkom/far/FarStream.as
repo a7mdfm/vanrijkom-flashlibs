@@ -256,7 +256,6 @@ public class FarStream extends URLStream
 		for (var j: uint=0; j<table.length; j++) {
 			i = table[j];
 			c = e.bytesLoaded-bytesAvailable;
-			trace(c,i.offset);
 			if 	(	c >= i.offset 
 				&& 	!i.loaded 
 				&& 	i.offset != -1
@@ -268,7 +267,6 @@ public class FarStream extends URLStream
 					( i.size-i.data.length	// req. bytes to complete
 					, bytesAvailable		// avail. bytes
 					);
-				trace("count",bytesAvailable,count,i.size,i.data.length);	
 				readBytes(i.data,i.data.length,count);
 				// broadcast item load progress:
 				evt = new FarEvent(FarEvent.ITEM_PROGRESS);	
