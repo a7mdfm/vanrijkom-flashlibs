@@ -24,5 +24,6 @@ The archive tool is programmed in haXe. For more info on haxe, see [http://www.h
 The current release is Beta 0.1. Refer to the [http://code.google.com/p/vanrijkom-flashlibs/downloads/list downloads section] to download.
 
 == More info ==
-Refer to the online AS3 API documentation at:
-[http://vanrijkom.org/far/index.html] 
+
+[FarHelp|FAR Archiver syntax]
+[http://vanrijkom.org/far/index.html|ActionScript3 API] 
