@@ -348,6 +348,20 @@ public class FarStream extends URLStream
 	}
 	
 	/**
+	 * Begins downloading the arhive from the URL specified. Uses
+	 * the load method internally, after creating an URLRequest
+	 * instance from the URL string. The created URLRequest is
+	 * passed as the return value.
+	 * @param url
+	 * @see flash.net.URLStream#load 
+	 */		
+	public function loadFromURL(url: String): URLRequest {
+		var r: URLRequest = new URLRequest(url);
+		load(r);
+		return r;
+	}
+	
+	/**
 	 * <strong>URLStream:</strong> Immediately closes the stream and 
 	 * cancels the download operation. No data can be read from the
 	 * stream after the close() method is called.
