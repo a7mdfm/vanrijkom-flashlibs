@@ -18,8 +18,4 @@ The current release is Beta 0.1. It can be obtained using SVN:
 
 == More info ==
 
-  * [http://vanrijkom.org/shp/index.html API Documentation] 
-
-== Sample ==
-
-  * [http://vanrijkom.org/mexico/App.swf Mexico] (states, rivers and roads read in from SHP file at run-time)
+  * [http://vanrijkom.org/shp/index.html API Documentation]
